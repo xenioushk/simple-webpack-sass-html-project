@@ -1,8 +1,8 @@
-import $ from 'jquery'
+import $ from "jquery"
 
 const handleButtonClick = () => {
-  $(document).on('click', '#myButton', function () {
-    alert('Button clicked!')
+  $(document).on("click", "#myButton", function () {
+    alert("Button clicked!!")
   })
 }
 
