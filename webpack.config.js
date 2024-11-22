@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
   entry: {
-    scripts: "./src/js/scripts.js", // Handles both scripts and styles
+    scripts: "./src/index.js", // Handles both scripts and styles
   },
   output: {
     filename: "[name].js", // Dynamic naming: 'scripts.js' and 'styles.js'
@@ -34,5 +34,5 @@ module.exports = {
       filename: "styles.css", // Output CSS file as 'styles.css'
     }),
   ],
-  devtool: "source-map", // For easier debugging
+  devtool: false, // For easier debugging
 }
