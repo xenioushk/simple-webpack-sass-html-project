@@ -1,5 +1,3 @@
-import "../styles/main.scss" // Import styles
-
 import $ from "jquery"
 import { appInfo, greet } from "./modules/greet.js"
 console.log(appInfo)
